@@ -14,3 +14,8 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
+
+document.querySelectorAll('.ContributionCalendar-day').forEach((el) => {
+  el.dataset.count = Math.round(Math.random() * 150);
+  el.dataset.level = Math.ceil(Math.random() * 4);
+});
